@@ -34,7 +34,7 @@ public class UserServiceTest {
 
     @Test
     public void getAccountDetailed() {
-        
+
         Mockito.when(userRepository.getById(Mockito.anyLong()))
                 .thenReturn(User.builder()
                                 .id(1)
